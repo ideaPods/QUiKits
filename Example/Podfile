@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QUiKits_Example' do
+  pod 'QUiKits', :path => '../'
+
+  target 'QUiKits_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
