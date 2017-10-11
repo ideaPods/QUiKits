@@ -1,0 +1,6 @@
+framework module QUiKits {
+  umbrella header "QUiKits-umbrella.h"
+
+  export *
+  module * { export * }
+}

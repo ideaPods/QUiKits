@@ -1,0 +1,16 @@
+PODS:
+  - QUiKits (0.1.0)
+
+DEPENDENCIES:
+  - QUiKits (from `../`)
+
+EXTERNAL SOURCES:
+  QUiKits:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QUiKits: d77bcc26689a1e3968714918aa2dd7f62069cd1d
+
+PODFILE CHECKSUM: 13991ba94cf1a776e2c10a92a3c8e99b359806ca
+
+COCOAPODS: 1.1.1

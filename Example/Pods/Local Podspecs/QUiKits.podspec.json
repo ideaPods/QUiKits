@@ -1,0 +1,22 @@
+{
+  "name": "QUiKits",
+  "version": "0.1.0",
+  "summary": "A short description of QUiKits.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ideaPods/QUiKits",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ideaPods": "qiulin@tvmining.com"
+  },
+  "source": {
+    "git": "https://github.com/ideaPods/QUiKits.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QUiKits/Classes/**/*"
+}

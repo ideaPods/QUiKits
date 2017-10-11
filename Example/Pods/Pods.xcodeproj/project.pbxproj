@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1820F7D5DAB1EC957050389629550064 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		366DE7D8478E585D0C6FDE542B8A3826 /* Pods-QUiKits_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67812B3F045C7085A043FFA20E06F27C /* Pods-QUiKits_Tests-dummy.m */; };
+		852E7BA0A360D37EC213CB2D0FCA510C /* Pods-QUiKits_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A41D70198414CBEE3A1CDEC0E6E475A /* Pods-QUiKits_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8689E6A7347F24F8E7F2ACCEF9AA2A80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AD85D3F08F27EFD62E35040DBCE9AAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AFFC7DAA8EA26D6E6D8A09D3AB7D688C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = ED37438774DAC8E16B6808DB8AF54EC0 /* ReplaceMe.m */; };
+		C0E0FC1C48782FCD16EF841D84D78C00 /* QUiKits-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F737E2D449E42C2DF85C73C527EB6448 /* QUiKits-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D19F728462B376F26E766BDBD1655A25 /* Pods-QUiKits_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4CF5AE93402A717256D4F1AD88F8CD2 /* Pods-QUiKits_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E867978F2082E63DF3EB553161975976 /* QUiKits-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F46E7C0AECFB4D155B858F24AF7A0A /* QUiKits-dummy.m */; };
+		EFDA6B421BCDAD9984DA0135D8F2A834 /* Pods-QUiKits_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0889007C39D71E00D7BDDA1E881D1749 /* Pods-QUiKits_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D8F3830FE9E8C36D82287C357F166EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 707251783DFBEBB044352D66C68FF349;
+			remoteInfo = QUiKits;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04170BDA63A174A5D6667A53E365AFCF /* Pods-QUiKits_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QUiKits_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0889007C39D71E00D7BDDA1E881D1749 /* Pods-QUiKits_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QUiKits_Example-dummy.m"; sourceTree = "<group>"; };
+		1294FFE7621A39D0E6CA2F0EC15C0648 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E3869F9AB158531B31333EB92F0A8F /* Pods-QUiKits_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QUiKits_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2EEDA4A5228FE4A9B063FACC7B9F6B4D /* Pods-QUiKits_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QUiKits_Tests-resources.sh"; sourceTree = "<group>"; };
+		31300FE04096EF129D435AAB5E112283 /* Pods-QUiKits_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QUiKits_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38F7D71B011F6B240B737A248B99F64F /* QUiKits.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QUiKits.framework; path = QUiKits.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		450928165ED279D8684D04D3BA3EC3C3 /* Pods-QUiKits_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QUiKits_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4CD3BB2D2A5194A5056E010A3F3A0DE8 /* Pods-QUiKits_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QUiKits_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5A41D70198414CBEE3A1CDEC0E6E475A /* Pods-QUiKits_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QUiKits_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5E2295B4E7476D04036185CF36E99C20 /* Pods-QUiKits_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QUiKits_Example.modulemap"; sourceTree = "<group>"; };
+		67812B3F045C7085A043FFA20E06F27C /* Pods-QUiKits_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QUiKits_Tests-dummy.m"; sourceTree = "<group>"; };
+		76C6520EFAD6532015CB0040C1E50E81 /* Pods-QUiKits_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QUiKits_Example-resources.sh"; sourceTree = "<group>"; };
+		8133E0BBAEEC14713BD12DC60E61EFA9 /* QUiKits.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = QUiKits.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A2EAFB4A2891CBF2DF31319E7E08EFE /* Pods-QUiKits_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QUiKits_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A2600738E915CCC579EBA0AD698C7C36 /* Pods_QUiKits_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QUiKits_Tests.framework; path = "Pods-QUiKits_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A487CDF5E714068D662E2E4D1738F6C2 /* Pods_QUiKits_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QUiKits_Example.framework; path = "Pods-QUiKits_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22661EB9B55C91313F7A80884EC7BA0 /* Pods-QUiKits_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QUiKits_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B272CDB16F0FE0048450404366B9A98D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA086D4E31A1EEB684416D4207AA8182 /* Pods-QUiKits_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QUiKits_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BF87DC38AD3CE0BD3ED62BCD2ACD0D41 /* QUiKits.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QUiKits.xcconfig; sourceTree = "<group>"; };
+		C1F46E7C0AECFB4D155B858F24AF7A0A /* QUiKits-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QUiKits-dummy.m"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D20653AE12EFF7EF9751B3B968171ED6 /* Pods-QUiKits_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QUiKits_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D4CF5AE93402A717256D4F1AD88F8CD2 /* Pods-QUiKits_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QUiKits_Example-umbrella.h"; sourceTree = "<group>"; };
+		DD616556E3DA195775071F881E4D4BDE /* Pods-QUiKits_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-QUiKits_Tests.modulemap"; sourceTree = "<group>"; };
+		DE32477D90E4B2BB9B4EC4D497295669 /* QUiKits-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QUiKits-prefix.pch"; sourceTree = "<group>"; };
+		DF336CE5418609CA5B9ED99868D1ECC0 /* Pods-QUiKits_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QUiKits_Example.release.xcconfig"; sourceTree = "<group>"; };
+		ED37438774DAC8E16B6808DB8AF54EC0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		F7067CEA48EB5E6269CC5D326612449F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F737E2D449E42C2DF85C73C527EB6448 /* QUiKits-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QUiKits-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0570D366AAB2BB927F9E8A22672FF6DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8689E6A7347F24F8E7F2ACCEF9AA2A80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		117DF9EC63E56C5405902E81CF73C6FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD85D3F08F27EFD62E35040DBCE9AAB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5AD89EEAFC93C581C7C6816DA057DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1820F7D5DAB1EC957050389629550064 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		201F70A58F77A22E56BD53E17DF609CB /* QUiKits */ = {
+			isa = PBXGroup;
+			children = (
+				EFC42043533757AEF3DE273490E9E4B5 /* QUiKits */,
+				2F06CF7C67E86BFAAEA838DDF0774D41 /* Support Files */,
+			);
+			name = QUiKits;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		250E190CF41A3A784576F9161AC0D4DB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				201F70A58F77A22E56BD53E17DF609CB /* QUiKits */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		299FBBB94CDFCC4D983F00CBF71F699E /* Pods-QUiKits_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B272CDB16F0FE0048450404366B9A98D /* Info.plist */,
+				DD616556E3DA195775071F881E4D4BDE /* Pods-QUiKits_Tests.modulemap */,
+				D20653AE12EFF7EF9751B3B968171ED6 /* Pods-QUiKits_Tests-acknowledgements.markdown */,
+				28E3869F9AB158531B31333EB92F0A8F /* Pods-QUiKits_Tests-acknowledgements.plist */,
+				67812B3F045C7085A043FFA20E06F27C /* Pods-QUiKits_Tests-dummy.m */,
+				450928165ED279D8684D04D3BA3EC3C3 /* Pods-QUiKits_Tests-frameworks.sh */,
+				2EEDA4A5228FE4A9B063FACC7B9F6B4D /* Pods-QUiKits_Tests-resources.sh */,
+				5A41D70198414CBEE3A1CDEC0E6E475A /* Pods-QUiKits_Tests-umbrella.h */,
+				04170BDA63A174A5D6667A53E365AFCF /* Pods-QUiKits_Tests.debug.xcconfig */,
+				9A2EAFB4A2891CBF2DF31319E7E08EFE /* Pods-QUiKits_Tests.release.xcconfig */,
+			);
+			name = "Pods-QUiKits_Tests";
+			path = "Target Support Files/Pods-QUiKits_Tests";
+			sourceTree = "<group>";
+		};
+		2F06CF7C67E86BFAAEA838DDF0774D41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1294FFE7621A39D0E6CA2F0EC15C0648 /* Info.plist */,
+				8133E0BBAEEC14713BD12DC60E61EFA9 /* QUiKits.modulemap */,
+				BF87DC38AD3CE0BD3ED62BCD2ACD0D41 /* QUiKits.xcconfig */,
+				C1F46E7C0AECFB4D155B858F24AF7A0A /* QUiKits-dummy.m */,
+				DE32477D90E4B2BB9B4EC4D497295669 /* QUiKits-prefix.pch */,
+				F737E2D449E42C2DF85C73C527EB6448 /* QUiKits-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QUiKits";
+			sourceTree = "<group>";
+		};
+		45BDF47F02762D7A81BD6B1F2973BBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A487CDF5E714068D662E2E4D1738F6C2 /* Pods_QUiKits_Example.framework */,
+				A2600738E915CCC579EBA0AD698C7C36 /* Pods_QUiKits_Tests.framework */,
+				38F7D71B011F6B240B737A248B99F64F /* QUiKits.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B3815E85F6B3B7A679BAE1598FB4BD0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BA1946BFFA01C6A24E30FEA3BEB70E5 /* Pods-QUiKits_Example */,
+				299FBBB94CDFCC4D983F00CBF71F699E /* Pods-QUiKits_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7BA1946BFFA01C6A24E30FEA3BEB70E5 /* Pods-QUiKits_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F7067CEA48EB5E6269CC5D326612449F /* Info.plist */,
+				5E2295B4E7476D04036185CF36E99C20 /* Pods-QUiKits_Example.modulemap */,
+				31300FE04096EF129D435AAB5E112283 /* Pods-QUiKits_Example-acknowledgements.markdown */,
+				BA086D4E31A1EEB684416D4207AA8182 /* Pods-QUiKits_Example-acknowledgements.plist */,
+				0889007C39D71E00D7BDDA1E881D1749 /* Pods-QUiKits_Example-dummy.m */,
+				B22661EB9B55C91313F7A80884EC7BA0 /* Pods-QUiKits_Example-frameworks.sh */,
+				76C6520EFAD6532015CB0040C1E50E81 /* Pods-QUiKits_Example-resources.sh */,
+				D4CF5AE93402A717256D4F1AD88F8CD2 /* Pods-QUiKits_Example-umbrella.h */,
+				4CD3BB2D2A5194A5056E010A3F3A0DE8 /* Pods-QUiKits_Example.debug.xcconfig */,
+				DF336CE5418609CA5B9ED99868D1ECC0 /* Pods-QUiKits_Example.release.xcconfig */,
+			);
+			name = "Pods-QUiKits_Example";
+			path = "Target Support Files/Pods-QUiKits_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				250E190CF41A3A784576F9161AC0D4DB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				45BDF47F02762D7A81BD6B1F2973BBB0 /* Products */,
+				5B3815E85F6B3B7A679BAE1598FB4BD0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87AA9E1FA43B20C0CAD1CA2E6D194422 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ED37438774DAC8E16B6808DB8AF54EC0 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFC42043533757AEF3DE273490E9E4B5 /* QUiKits */ = {
+			isa = PBXGroup;
+			children = (
+				87AA9E1FA43B20C0CAD1CA2E6D194422 /* Classes */,
+			);
+			name = QUiKits;
+			path = QUiKits;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		09F721AF88DCD5D0E302DE230B793134 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D19F728462B376F26E766BDBD1655A25 /* Pods-QUiKits_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DC1E89AD19EBBEBF47FDD36E26EFB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				852E7BA0A360D37EC213CB2D0FCA510C /* Pods-QUiKits_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3C3B0B4481ECF0486E15E3607F93FFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0E0FC1C48782FCD16EF841D84D78C00 /* QUiKits-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		707251783DFBEBB044352D66C68FF349 /* QUiKits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE6334A326F5E0E89DB3F09BD14FCF38 /* Build configuration list for PBXNativeTarget "QUiKits" */;
+			buildPhases = (
+				5C5D79124C3683331C22B44FA5C084AA /* Sources */,
+				0570D366AAB2BB927F9E8A22672FF6DD /* Frameworks */,
+				E3C3B0B4481ECF0486E15E3607F93FFA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QUiKits;
+			productName = QUiKits;
+			productReference = 38F7D71B011F6B240B737A248B99F64F /* QUiKits.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		941966B985ED5CBDE9C4E75DF57526BE /* Pods-QUiKits_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7B2F27124F9898823ACEE98FD771B90 /* Build configuration list for PBXNativeTarget "Pods-QUiKits_Example" */;
+			buildPhases = (
+				F1E9518A18316E94DACC62854D72F08D /* Sources */,
+				E5AD89EEAFC93C581C7C6816DA057DC6 /* Frameworks */,
+				09F721AF88DCD5D0E302DE230B793134 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ECC1F82052E1D08309A970D8F5D6BFA /* PBXTargetDependency */,
+			);
+			name = "Pods-QUiKits_Example";
+			productName = "Pods-QUiKits_Example";
+			productReference = A487CDF5E714068D662E2E4D1738F6C2 /* Pods_QUiKits_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ECE146F4D9137E4EBEB0A7E535BA0E22 /* Pods-QUiKits_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80507FC1CEDFFDFD99C21733FAEED83 /* Build configuration list for PBXNativeTarget "Pods-QUiKits_Tests" */;
+			buildPhases = (
+				64B98BEEC67B8A4C3365D4A8F7A2E22B /* Sources */,
+				117DF9EC63E56C5405902E81CF73C6FE /* Frameworks */,
+				91DC1E89AD19EBBEBF47FDD36E26EFB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-QUiKits_Tests";
+			productName = "Pods-QUiKits_Tests";
+			productReference = A2600738E915CCC579EBA0AD698C7C36 /* Pods_QUiKits_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 45BDF47F02762D7A81BD6B1F2973BBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				941966B985ED5CBDE9C4E75DF57526BE /* Pods-QUiKits_Example */,
+				ECE146F4D9137E4EBEB0A7E535BA0E22 /* Pods-QUiKits_Tests */,
+				707251783DFBEBB044352D66C68FF349 /* QUiKits */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C5D79124C3683331C22B44FA5C084AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E867978F2082E63DF3EB553161975976 /* QUiKits-dummy.m in Sources */,
+				AFFC7DAA8EA26D6E6D8A09D3AB7D688C /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64B98BEEC67B8A4C3365D4A8F7A2E22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				366DE7D8478E585D0C6FDE542B8A3826 /* Pods-QUiKits_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E9518A18316E94DACC62854D72F08D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDA6B421BCDAD9984DA0135D8F2A834 /* Pods-QUiKits_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1ECC1F82052E1D08309A970D8F5D6BFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QUiKits;
+			target = 707251783DFBEBB044352D66C68FF349 /* QUiKits */;
+			targetProxy = 4D8F3830FE9E8C36D82287C357F166EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		15BDCBC65B2739593623D20F477C82A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF87DC38AD3CE0BD3ED62BCD2ACD0D41 /* QUiKits.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QUiKits/QUiKits-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QUiKits/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QUiKits/QUiKits.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QUiKits;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		708223F2C209516C0C00A17AF14467DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD3BB2D2A5194A5056E010A3F3A0DE8 /* Pods-QUiKits_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QUiKits_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QUiKits_Example/Pods-QUiKits_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QUiKits_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DD35D710AF5BA7246C61392ACD567F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A2EAFB4A2891CBF2DF31319E7E08EFE /* Pods-QUiKits_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QUiKits_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QUiKits_Tests/Pods-QUiKits_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QUiKits_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A66F89A2BDD18C58A1DF60DD90A107A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF87DC38AD3CE0BD3ED62BCD2ACD0D41 /* QUiKits.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QUiKits/QUiKits-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QUiKits/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QUiKits/QUiKits.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QUiKits;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C425CCB3F9C5D913D027977DD9658328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF336CE5418609CA5B9ED99868D1ECC0 /* Pods-QUiKits_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QUiKits_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QUiKits_Example/Pods-QUiKits_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QUiKits_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EEA51F10B36DCD1BFB32B92E1B296F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04170BDA63A174A5D6667A53E365AFCF /* Pods-QUiKits_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QUiKits_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QUiKits_Tests/Pods-QUiKits_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_QUiKits_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E96A645A77DAD1FD4F541F18F5DDBF /* Debug */,
+				862AF3139CD84E18D34FAF2F43CD0DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7B2F27124F9898823ACEE98FD771B90 /* Build configuration list for PBXNativeTarget "Pods-QUiKits_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				708223F2C209516C0C00A17AF14467DA /* Debug */,
+				C425CCB3F9C5D913D027977DD9658328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80507FC1CEDFFDFD99C21733FAEED83 /* Build configuration list for PBXNativeTarget "Pods-QUiKits_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA51F10B36DCD1BFB32B92E1B296F1B /* Debug */,
+				8DD35D710AF5BA7246C61392ACD567F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE6334A326F5E0E89DB3F09BD14FCF38 /* Build configuration list for PBXNativeTarget "QUiKits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BDCBC65B2739593623D20F477C82A5 /* Debug */,
+				A66F89A2BDD18C58A1DF60DD90A107A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
