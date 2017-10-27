@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QUiKits'
-  s.version          = '0.1'
+  s.version          = '0.2'
   s.summary          = 'QUiKits is sets of awesome ObjC Category.'
 
 # This description is used to generate tags and improve search results.
