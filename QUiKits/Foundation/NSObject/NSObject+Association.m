@@ -49,8 +49,7 @@ static char associattiedObjectsKey;
     NSMutableDictionary *propInfos = [NSMutableDictionary dictionary];
     unsigned int outCount, i;
     objc_property_t *properties = class_copyPropertyList([self class], &outCount);
-    for (i = 0; i<outCount; i++)
-    {
+    for (i = 0; i<outCount; i++) {
         objc_property_t property = properties[i];
         const char* char_p =property_getName(property);
         NSString *propName = [NSString stringWithUTF8String:char_p];
